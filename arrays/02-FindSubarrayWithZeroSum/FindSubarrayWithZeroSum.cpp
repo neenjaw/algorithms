@@ -13,7 +13,7 @@ void printAllSubarrays(int arr[], int n) {
 
       //if sum is seen before, we have found a sub array with 0 sum
       if (sum == 0) {
-        cout << "Subarray [" << i << ".." << j << "]\n";
+        std::cout << "Subarray [" << i << ".." << j << "]\n";
       }
     }
   }
